@@ -1,0 +1,53 @@
+.safe-area {
+    width: 1365px;
+    margin: 0 auto;
+}
+
+.btn-fll {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #15214a;
+    color: #fff;
+    height: 100%;
+    padding: 0 20px;
+    border-radius: 5px;
+}
+
+.btn-fll-white {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    color: #000;
+    width: 170px;
+    height: 100%;
+    padding: 0 20px;
+    border-radius: 5px;
+    min-height: 60px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.d-flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.b-radius-5 {
+    border-radius: 5px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.a-i-center {
+    align-items: center;
+}
+
+.j-c-between {
+    justify-content: space-between;
+}
+

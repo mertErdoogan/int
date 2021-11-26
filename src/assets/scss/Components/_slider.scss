@@ -1,0 +1,58 @@
+.slider-root {
+    overflow: hidden;
+    .slider-wrapper {
+        .slider-container {
+            .slider-item {
+                position: relative;
+                .img-block {
+                    z-index: -1;
+                }
+                .text-block {
+                    position: absolute;
+                    max-width: 245px;
+                    top: 50%;
+                    left: 5%;
+                    transform: translateY(-50%);
+                    p {
+                        color: #fff;
+                        &.header-text {
+                            margin-bottom: 15px;
+                            font-size: 12px;
+                        }
+                        &.discount-text {
+                            margin-bottom: 15px;
+                            font-size: 24px;
+                        }
+                    }
+                    h1 {
+                        margin-bottom: 15px;
+                        color: #fff;
+                        font-size: 40px;
+                        font-weight: 700;
+                    }
+                }
+            }
+            .slick-dots {
+                li {
+                    width: 5px;
+                    &.slick-active {
+                        button {
+                            &::before {
+                                opacity: 1;
+                                color: white;
+                            }
+                        }
+                    }
+                    button {
+                        &::before {
+                            opacity: 0.6;
+                            font-size: 12px;
+                            color: #fff;
+                        }
+                    }
+                }
+                bottom: 2%;
+            }
+        }
+    }
+}

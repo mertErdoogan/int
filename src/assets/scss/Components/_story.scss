@@ -1,0 +1,40 @@
+.story-root {
+    .story-wrapper {
+        .story-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 30px 50px;
+            .story-item {
+                cursor: pointer;
+                display: flex;
+                flex-direction: column;
+                .circle-item {
+                    border-radius: 50%;
+                    border: 2px solid transparent;
+                    min-width: 92px;
+                    height: 92px;
+                    transition: all .4s cubic-bezier(0.075, 0.82, 0.165, 1);
+                    .colored-circle {
+                        color: #fff;
+                        width: 80px;
+                        font-size: 30px;
+                        height: 80px;
+                        border-radius: 50%;
+                        background-color: red;
+                    }
+                    &:hover {
+                    border-color:  red;
+                    }
+                }
+                .text-item {
+                    text-align: center;
+                    margin-top: 10px;
+                    p {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+}
