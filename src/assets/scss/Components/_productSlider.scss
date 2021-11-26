@@ -1,0 +1,38 @@
+.product-slider-root {
+    margin-top: 50px;
+    .product-slider-wrapper {
+        .product-slider-container {
+            h2 {
+                font-size: 24px;
+                font-weight: 700;
+            }
+            p {
+                &.sub-desc {
+                    font-size: 12px;
+                    color: rgb(184, 188, 200);
+                    margin-top: 5px;
+                }
+            }
+            .slider-block {
+                .slider-item {
+                    width: 20.5rem;
+                    border-radius: 22px;
+                    padding: 12px;
+                    margin: 0 auto;
+                    border: 1px solid lightgray;
+                    .img-block {
+                        border-radius: 22px;
+                        overflow: hidden;
+                        img {
+                            width: 100%;
+                        }
+                        .fav-item {
+                        }
+                        .custom-input {
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,10 +1,13 @@
 import logo from './logo.svg';
 import './assets/scss/main.scss';
+import HomePageContainer from './Containers/HomePageContainer';
+import HeaderComponent from './Components/HeaderComponent';
 
 function App() {
   return (
     <div className="App">
-     <h1>asdfaksşmdf</h1>
+      <HeaderComponent />
+      <HomePageContainer />
     </div>
   );
 }
