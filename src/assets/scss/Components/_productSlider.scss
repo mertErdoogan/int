@@ -14,6 +14,7 @@
                 }
             }
             .slider-block {
+                margin-top: 20px;
                 .slider-item {
                     width: 20.5rem;
                     border-radius: 22px;
@@ -21,14 +22,124 @@
                     margin: 0 auto;
                     border: 1px solid lightgray;
                     .img-block {
+                        position: relative;
                         border-radius: 22px;
                         overflow: hidden;
+                        width: 100%;
+                        height: 225px;
                         img {
                             width: 100%;
+                            height: 100%;
                         }
-                        .fav-item {
+                        .button-block {
+                            display: flex;
+                            width: 88%;
+                            justify-content: space-between;
+                            align-items: center;
+                            position: absolute;
+                            top: 3%;
+                            left: 50%;
+                            transform: translateX(-50%);
+                            .fav-item {
+                            }
+                            .custom-input {
+                            }
                         }
-                        .custom-input {
+                    }
+                    .info-block {
+                        margin-top: 20px;
+                        display: flex;
+                        flex-direction: column;
+                        .time-item {
+                            display: flex;
+                            margin-bottom: 20px;
+                            p {
+                                padding: 15px;
+                                border-radius: 22px;
+                                background-color: #e8fff5;
+                                color: #38eaa0;
+                                font-weight: 900;
+                            }
+                        }
+                        .title-item {
+                            h2 {
+                                font-size: 16px;
+                                margin-bottom: 5px;
+                                font-weight: 700;
+                            }
+                            p {
+                                &.sub-text {
+                                    margin-bottom: 5px;
+                                    color: rgb(114, 121, 146);
+                                    font-size: 12px;
+                                }
+                            }
+                            &::after {
+                                content: "";
+                                display: block;
+                                width: 100%;
+                                height: 1px;
+                                background-color: rgb(231, 232, 236);
+                                margin-top: 10px;
+                            }
+                        }
+                        .deposit-item {
+                            margin-top: 15px;
+                            h2 {
+                                margin-bottom: 10px;
+                                font-size: 14px;
+                                font-weight: 500;
+                            }
+                            p {
+                                &.price {
+                                    color: rgb(255, 25, 144);
+                                    font-weight: 800;
+                                    font-size: 16px;
+                                }
+                            }
+                            &::after {
+                                content: "";
+                                display: block;
+                                width: 100%;
+                                height: 1px;
+                                background-color: rgb(231, 232, 236);
+                                margin-top: 10px;
+                            }
+                        }
+                        p {
+                            &.fuse-protected {
+                                margin-top: 15px;
+                                color: rgb(114, 121, 146);
+                                font-size: 12px;
+                            }
+                        }
+                        .author-item {
+                            display: flex;
+                            margin-top: 15px;
+                            .img-item {
+                                max-width: 30px;
+                                height: 30px;
+                                overflow: hidden;
+                                border-radius: 50%;
+                                img {
+                                    width: 100%;
+                                }
+                            }
+                            .title-block {
+                                margin-left: 10px;
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: space-around;
+                                p {
+                                    font-size: 12px;
+                                    font-weight: 600;
+                                    color: #15214a;
+                                    &.title {
+                                        color: rgb(184, 188, 200);
+                                        font-size: 10px;
+                                    }
+                                }
+                            }
                         }
                     }
                 }

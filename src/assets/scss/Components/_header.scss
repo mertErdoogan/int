@@ -28,16 +28,58 @@
                 flex: 5;
                 height: 100%;
                 .search-item {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
                     width: 90%;
                     margin: 0 auto;
                     border: 1px solid #d8d8d8;
                     background-color: #f8f8f8;
+                    .icon-block {
+                        padding-left: 20px;
+                        svg {
+                            font-size: 22px;
+                        }
+                    }
                     input {
-                        width: 100%;
-                        height: 100%;
-                        border: none;
-                        background-color: transparent;
-                        
+                        &.search-input {
+                            width: 80%;
+                            height: 100%;
+                            border: none;
+                            background-color: transparent;
+                            padding-left: 25px;
+                            outline: none;
+                        }
+                    }
+                    .dropdown-select {
+                        .rs-picker-toggle-wrapper {
+                            .rs-picker-toggle {
+                                background-color: transparent !important;
+                                border: none !important;
+                                position: relative;
+                                .rs-picker-toggle-textbox {
+                                    outline: none;
+                                }
+                                .rs-picker-toggle-value {
+                                    color: gray;
+                                }
+                                &:focus {
+                                    border: none !important;
+                                    outline: none !important;
+                                }
+                                &::before {
+                                    content: "";
+                                    position: absolute;
+                                    left: 0;
+                                    top: 50%;
+                                    transform: translateY(-50%);
+                                    display: block;
+                                    width: 1px;
+                                    height: 50px;
+                                    background-color: rgb(206, 206, 206);
+                                }
+                            }
+                        }
                     }
                 }
             }

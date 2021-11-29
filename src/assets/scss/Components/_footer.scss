@@ -1,0 +1,44 @@
+.footer-root {
+    .footer-wrapper {
+        padding: 100px 0 70px;
+        .footer-container {
+            .content-block {
+                display: flex;
+                .content-item {
+                    flex: 1;
+                    ul {
+                        li {
+                            cursor: pointer;
+                            font-size: 14px;
+                            margin: 0 0 20px 0;
+                            color: #727992;
+                            &.title {
+                                font-weight: 600;
+                                font-size: 16px;
+                                color: #000;
+                            }
+                            &.mail-text {
+                                color: pink
+                            }
+                            &:hover {
+                                text-decoration: underline;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .bottom-block {
+        display: flex;
+        justify-content: space-between;
+        border-top: 1px solid gray;
+        padding-top: 50px;
+        .left-block {
+            font-size: 12px;
+        }
+        .right-block {
+            display: flex;
+        }
+    }
+}

@@ -3,6 +3,10 @@
     margin: 0 auto;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 .btn-fll {
     display: flex;
     justify-content: center;
@@ -12,6 +16,10 @@
     height: 100%;
     padding: 0 20px;
     border-radius: 5px;
+}
+
+img {
+    width: 100%;
 }
 
 .btn-fll-white {
