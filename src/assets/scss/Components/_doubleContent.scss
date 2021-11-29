@@ -1,0 +1,81 @@
+.double-content-root {
+    margin-top: 100px;
+    .double-content-wrapper {
+        .double-content-container {
+            height: 540px;
+            border: 1px solid rgb(231, 232, 236);
+            display: flex;
+            position: relative;
+            .left-block {
+                border-radius: 22px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                flex: 1;
+                .content-block {
+                    width: 55%;
+                    margin: 0 auto;
+                    .img-item {
+                        margin-bottom: 20px;
+                        max-width: 140px;
+                        img {
+                            width: 100%;
+                        }
+                    }
+                    p {
+                        font-size: 16px;
+                        color: rgba(21, 33, 74, 0.5);
+                        &.title-big {
+                            margin-bottom: 20px;
+                            font-size: 41px;
+                            font-weight: 600;
+                            color: rgb(21, 33, 74);
+                        }
+                    }
+                }
+                &::after {
+                    position: absolute;
+                    content: "";
+                    width: 1px;
+                    top: 50%;
+                    right: 50%;
+                    transform: translate(-50%, -50%);
+                    height: 90%;
+                    background-color: rgb(231, 232, 236);
+                }
+            }
+            .right-block {
+                overflow: hidden;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 22px;
+                flex: 1;
+                .slide-block {
+                    width: 55%;
+                    .slider-item {
+                        .top-block {
+                            p {
+                                font-size: 10px;
+                                margin-bottom: 40px;
+                                &.title {
+                                    margin-bottom: 10px;
+                                    font-size: 16px;
+                                    font-weight: 600;
+                                    color: #15214a;
+                                }
+                            }
+                        }
+                        p{
+                            &.desc {
+                                color: rgba(21, 33, 74, 0.5);
+                                margin-bottom: 25px;
+                                line-height: 1.4;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

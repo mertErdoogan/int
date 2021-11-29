@@ -14,17 +14,97 @@
                     border: 2px solid transparent;
                     min-width: 92px;
                     height: 92px;
-                    transition: all .4s cubic-bezier(0.075, 0.82, 0.165, 1);
+                    transition: all 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
                     .colored-circle {
                         color: #fff;
                         width: 80px;
                         font-size: 30px;
                         height: 80px;
                         border-radius: 50%;
-                        background-color: red;
+                        background-color: rgb(109, 38, 242);
                     }
                     &:hover {
-                    border-color:  red;
+                        border-color: rgb(109, 38, 242);
+                    }
+                    &.t-2 {
+                        .colored-circle {
+                            background-color: rgb(109, 38, 242);
+                        }
+                        &:hover {
+                            border-color: rgb(109, 38, 242);
+                        }
+                    }
+                    &.t-3 {
+                        .colored-circle {
+                            background-color: rgb(249, 204, 75);
+                        }
+                        &:hover {
+                            border-color: rgb(249, 204, 75);
+                        }
+                    }
+                    &.t-4 {
+                        .colored-circle {
+                            background-color: rgb(65, 169, 87);
+                        }
+                        &:hover {
+                            border-color: rgb(65, 169, 87);
+                        }
+                    }
+                    &.t-5 {
+                        .colored-circle {
+                            background-color: rgb(0, 217, 177);
+                        }
+                        &:hover {
+                            border-color: rgb(0, 217, 177);
+                        }
+                    }
+                    &.t-6 {
+                        .colored-circle {
+                            background-color: rgb(60, 217, 255);
+                        }
+                        &:hover {
+                            border-color: rgb(60, 217, 255);
+                        }
+                    }
+                    &.t-7 {
+                        .colored-circle {
+                            background-color: rgb(206, 82, 201);
+                        }
+                        &:hover {
+                            border-color: rgb(206, 82, 201);
+                        }
+                    }
+                    &.t-8 {
+                        .colored-circle {
+                            background-color: rgb(0, 83, 249);
+                        }
+                        &:hover {
+                            border-color: rgb(0, 83, 249);
+                        }
+                    }
+                    &.t-9 {
+                        .colored-circle {
+                            background-color: rgb(248, 37, 53);
+                        }
+                        &:hover {
+                            border-color: rgb(248, 37, 53);
+                        }
+                    }
+                    &.t-10 {
+                        .colored-circle {
+                            background-color: rgb(190, 202, 0);
+                        }
+                        &:hover {
+                            border-color: rgb(190, 202, 0);
+                        }
+                    }
+                    &.t-11 {
+                        .colored-circle {
+                            background-color: rgb(0, 237, 255);
+                        }
+                        &:hover {
+                            border-color: rgb(0, 237, 255);
+                        }
                     }
                 }
                 .text-item {
